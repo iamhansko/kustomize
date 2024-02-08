@@ -1,0 +1,12 @@
+[
+    { 
+        "op": "replace", 
+        "path": "/spec/rules/0/host", 
+        "value": "dev.gobongbap.k8s.scg.skku.ac.kr"
+    },
+    { 
+        "op": "replace", 
+        "path": "/spec/tls/0/hosts/0", 
+        "value": "dev.gobongbap.k8s.scg.skku.ac.kr"
+    }
+]
