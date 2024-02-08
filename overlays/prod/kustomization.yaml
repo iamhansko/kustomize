@@ -6,11 +6,10 @@ patches:
   target:
     kind: Ingress
     name: ingress
-patchesStrategicMerge:
-- secrets.yaml
 resources:
 - ../../base
 - namespace.yaml
+- secrets.yaml
 images:
 - name: sce06147/gobongbap
   newTag: 9e002bfb213030c2c03464c3c52766861919593e
