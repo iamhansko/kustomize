@@ -6,9 +6,10 @@ patches:
   target:
     kind: Ingress
     name: ingress
-resources:
+bases:
 - ../../base
+resources:
 - namespace.yaml
-- secrets.yaml
+- secret.yaml
 images:
 - name: sce06147/skku-login
