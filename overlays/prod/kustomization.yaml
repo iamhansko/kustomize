@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: gobongbap
+namespace: skku-login
 patches:
 - path: domain.json
   target:
@@ -11,5 +11,4 @@ resources:
 - namespace.yaml
 - secrets.yaml
 images:
-- name: sce06147/gobongbap
-  newTag: 9e002bfb213030c2c03464c3c52766861919593e
+- name: sce06147/skku-login

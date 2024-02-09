@@ -9,7 +9,7 @@ spec:
   tls:
   - hosts:
     - blabla.scg.skku.ac.kr
-    secretName: gitops-tls
+    secretName: tls-secret
   rules:
   - host: blabla.scg.skku.ac.kr
     http:
