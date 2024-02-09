@@ -6,9 +6,8 @@ patches:
   target:
     kind: Ingress
     name: ingress
-bases:
-- ../../base
 resources:
+- ../../base
 - namespace.yaml
 - secret.yaml
 images:
