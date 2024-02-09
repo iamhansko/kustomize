@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: app
     spec:
       containers:
-      - image: nginx
+      - image: sce06147/skku-login
         imagePullPolicy: Always
         name: app
         ports:
